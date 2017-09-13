@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+
+<html>
+	<head>
+		<title> duo </title>
+		<link rel="stylesheet" href="css/duet.css">
+		<link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
+	</head>
+	<body>
+		<div id='canvas-container'>
+	 	<canvas id="canvas" height=600 width=400>
+  	</canvas>
+  	</div>
+  	<script type="text/javascript" src = "levels.json"></script>
+		<script type="text/javascript" src = "lib/player.js"></script>
+		<script type="text/javascript" src = "lib/obstacle.js"></script>
+		<script type="text/javascript" src = "lib/collisionDetection.js"></script>
+		<script type="text/javascript" src = "lib/obstacleCodes.js"></script>
+		<script type="text/javascript" src = "lib/draw.js"></script>
+  	<script type="text/javascript" src = "lib/main.js"></script>
+
+  	<script>
+  		let duet = new Duet();
+  		duet.load();
+  	</script>
+
+		<br/>
+		<br/>
+
+		<h2>
+			Avoid the obstacles with your orbs and reach the end!
+
+			<br/>
+			<br/>
+
+			Press and hold 'A' to rotate counter-clockwise and 'D' to rotate clockwise
+		</h2>
+
+		<br/>
+
+		<p>
+			Music Credits (in order)
+
+			<br/>
+
+			Click on the title for more information/purchasing options
+
+			<br/>
+			<br/>
+
+			<a
+				href="https://www.amazon.com/Relativity-3-Lemaitre/dp/B00BCEUDF0/ref=ntt_mus_dp_dpt_1"
+				target="_blank"
+				>Lemaitre - Cut to Black</a>
+
+			<br/>
+
+			<a
+				href="https://soundcloud.com/pheenoofficial"
+				target="_blank"
+			>Pheeno - Leer</a>
+
+		</p>
+	</body>
+</html>
