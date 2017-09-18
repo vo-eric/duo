@@ -71,6 +71,17 @@
 	left: 41%;
 }
 
+ul {
+	display: flex;
+	justify-content: center;
+	list-style: none;
+}
+
+li {
+	font-size: 2em;
+	padding: 5px;
+}
+
 p {
 	text-align: center;
 	font-family: Lato, sans-serif;
@@ -87,7 +98,7 @@ a {
 	text-decoration: none;
 }
 
-h2 {
+h3 {
 	color: white;
 	font-family: Lato, sans-serif;
 	text-align: center;
